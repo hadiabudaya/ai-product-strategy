@@ -10,7 +10,7 @@
 
 ## Scores
 
-### Contextual Moat — _3_/5
+### Contextual Moat — _4_/5
 *Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
 
 **Score rationale:** Clients build a profile where the AI will understand their choices more and more by time.
