@@ -3,8 +3,8 @@
 ## Product
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
-**Product:**
-**Your Role:**
+**Product:** AI Native platform where looks into all public data and provide early signals to suppliers for opportunities before they become RFPs.
+**Your Role:** Product Manager
 
 ---
 
