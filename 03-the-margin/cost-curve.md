@@ -60,8 +60,11 @@ Why this pricing structure fits the buyer and the value delivered: It aligns wit
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 **BEFORE — TRADITIONAL SAAS**
+
 Revenue: $150 / seat × 1 seat = $150
+
 COGS: $22.50 (fixed) 
+
 Gross margin: 85%
 
 **AFTER — AI-POWERED**
