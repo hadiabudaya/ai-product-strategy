@@ -33,8 +33,11 @@
 ## Pricing Model
 
 **Current pricing:** 
+
 **Proposed AI pricing:**
+
 **Model:** seat-based / usage-based / outcome-based / hybrid
+
 
 ## Stress Tests
 
