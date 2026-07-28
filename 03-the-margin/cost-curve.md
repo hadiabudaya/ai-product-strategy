@@ -44,20 +44,16 @@ Pricing Strategy
 - Base fee ($/month): 500
 - Price per unit: $0
 - Estimated units/user/month: 0
-- Implied revenue/user/month: $500.00
+- Implied revenue/user/month: $1000.00
 
 Decision Note
-Why this pricing structure fits the buyer and the value delivered: —
-
-
-**Model:** seat-based / usage-based / outcome-based / hybrid
-
+Why this pricing structure fits the buyer and the value delivered: It aligns with enterprise procurement by offering predictable budgeting, while directly capturing the massive ROI of winning high-value municipal contracts without penalizing users for searching or receiving early signals.
 
 ## Stress Tests
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | | |
+| Inference costs 3x |  | |
 | Heaviest segment doubles | | |
 | Model provider raises prices 50% | | |
 
