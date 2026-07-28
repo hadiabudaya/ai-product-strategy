@@ -3,7 +3,7 @@
 ## Packaging Decision
 
 * Leader: Centralized place for all public documents where users can search and chat with documents
-* Filler: Recommendation of early signals where they get notified if something comes up and relevant to their business
+* Filler: Recommendation of early signals where the clients get notified if something comes up and is relevant to their business
 * Killer: 
 * Killer usage:
 
