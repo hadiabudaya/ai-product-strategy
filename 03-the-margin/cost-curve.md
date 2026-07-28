@@ -35,6 +35,20 @@
 **Current pricing:** 
 
 **Proposed AI pricing:**
+Pricing Strategy Block — Module 3
+
+Pricing Strategy
+- Strategy posture: Maximize
+- Pricing model: Seat / Access
+- Unit of work metered: Find Early Signals
+- Base fee ($/month): 500
+- Price per unit: $0
+- Estimated units/user/month: 0
+- Implied revenue/user/month: $500.00
+
+Decision Note
+Why this pricing structure fits the buyer and the value delivered: —
+
 
 **Model:** seat-based / usage-based / outcome-based / hybrid
 
