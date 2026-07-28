@@ -59,6 +59,20 @@ Why this pricing structure fits the buyer and the value delivered: It aligns wit
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
+**BEFORE — TRADITIONAL SAAS**
+Revenue: $150 / seat × 1 seat = $150
+COGS: $22.50 (fixed) 
+Gross margin: 85%
+
+**AFTER — AI-POWERED**
+Revenue: $500 base + $0 outcomes = $500
+COGS: $50.00 (variable: $9.50 AI inference + $40.50 data/infra)
+Gross margin: 90%
+
+**NET MARGIN SHIFT**
+$\Delta$ margin %: +5% (from 85% to 90%)$
+\Delta$gross$: +$322.50 / seat / month (from $127.50 to $450.00)
+Narrative: By repositioning from a standard document search tool to an AI-driven pre-RFP intelligence platform, ARPU grows 3.3x from $150 to $500/seat. Because our Claude-powered AI COGS is capped at ~$9.50/user through cascading triage, gross margin percentage expands to 90% while expanding absolute gross margin dollars per seat by 253%, dramatically accelerating NRR and LTV.
 
 **Before (traditional SaaS):**
 **After (AI-enabled):**
