@@ -23,8 +23,11 @@
 <!-- Cheap model → frontier model routing logic -->
 
 **Triage model:** Claude 3.5 Haiku
+
 **Frontier model:** Claude 3.5 Sonnet
+
 **Routing rule:** Process 100% of incoming daily ingested documents through Claude 3.5 Haiku for noise removal and signal identification. Route to Claude 3.5 Sonnet only when a user initiates a RAG chat, requests a Strategic Brief (Killer feature), or when Haiku's confidence score falls between 0.40 and 0.75.
+
 **Expected cascade ratio:** 85:15 (85% volume handled by Haiku, 15% escalated to Sonnet)
 
 ## Pricing Model
