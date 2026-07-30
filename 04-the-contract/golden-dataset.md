@@ -21,9 +21,6 @@ Dataset health
 - Edge cases: 3 (30.0%)
 - Judge mix: 50% rule / 20% LLM / 30% both
 
-**Adversarial rows included:** __
-**Coverage gaps identified by partner:**
-
 ## Confidence UX Design
 
 **Approach:** show uncertainty / tiered confidence / human-in-loop trigger
