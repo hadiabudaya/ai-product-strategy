@@ -58,9 +58,5 @@ Users can adjust their workspace signal alert threshold (e.g., only notify on >7
 
 **Feedback loop:** CSM & user overrides feed directly into the weekly golden dataset audit. 5+ similar document extraction corrections trigger an embedding re-indexing or prompt-template refinement candidate.
 
-
-## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
-
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
