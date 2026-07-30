@@ -43,8 +43,6 @@ Users can adjust their workspace signal alert threshold (e.g., only notify on >7
 
 ## Reliability Contract
 
-## Reliability Contract
-
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
 | Accuracy | 92% | Weekly · 200 golden municipal documents/transcripts · LLM-as-a-Judge (evaluating pre-RFP intent, agency, project type, and timeline rubric) | <88% → page on-call |
