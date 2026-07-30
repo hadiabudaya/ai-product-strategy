@@ -43,12 +43,23 @@ Users can adjust their workspace signal alert threshold (e.g., only notify on >7
 
 ## Reliability Contract
 
+## Reliability Contract
+
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 92% | Weekly · 200 golden municipal documents/transcripts · LLM-as-a-Judge (evaluating pre-RFP intent, agency, project type, and timeline rubric) | <88% → page on-call |
+| Hallucination rate | <1% | eekly run on 200 golden rows · citation grounding check flags ungrounded claims, invented budget figures, or fabricated council decision dates | >2% → auto-rollback to last good model |
+| Latency (p95) | <1.8s | Continuous prod monitoring (Datadog) · p95 latency grouped by Oliver AI Copilot, RAG retrieval, and Strategic Brief endpoints | >3.5s for 5min → page on-call |
+| Drift velocity | <0.5%/wk | 4-week rolling accuracy trend evaluated against golden dataset updates (capturing new municipal reporting formats & terminology) | >1% decay/wk → trigger gold-set audit |
+
+## HITL Architecture
+
+**Trigger:** Pre-RFP signal extraction confidence <60% OR prompt-injection / citation-grounding safety flag fires on auto-generated buyer outreach drafts & council summaries
+
+**Reviewer:** Rotating PMs on call (weekday 9-5 MT) · Senior CSM after hours
+
+**Feedback loop:** CSM & user overrides feed directly into the weekly golden dataset audit. 5+ similar document extraction corrections trigger an embedding re-indexing or prompt-template refinement candidate.
+
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
