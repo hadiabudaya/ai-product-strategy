@@ -23,13 +23,23 @@ Dataset health
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Tiered confidence model displaying signal scores and source evidence badges, with hedged language on uncertain leads and a human-in-the-loop review trigger prior to outbound outreach generation.
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**Confident (>90%):** Present full signal extraction with high-priority UI badge. Highlight explicit municipal budget numbers, motion details, and direct document page citations. Auto-generate the Strategic Brief and draft outreach memo, allowing the user to approve, edit, or send.
 
-**User control surface:**
+**Uncertain (50-90%):** Soften UI indicators with an "Unconfirmed Signal" label. Use hedged language (e.g., "This document hints at potential future procurement, but lacks formal budget approval"). Display extracted matching snippets and request user confirmation before drafting outreach text.
+
+**Not confident (<50%):** Do not generate an early signal alert or strategic brief. Suppress notification, tag document as background context only, and show missing evidence parameters (e.g., "No explicit budget or project scope detected") with an option for the user to manually request a deep RAG scan.
+
+**User control surface:** 
+
+Users see AI reasoning, extracted document excerpts, and matching key terms.
+
+Users can flag false positives or override relevance classifications directly from the signal feed.
+
+User overrides and feedback loops continuously update client relevance profile embeddings.
+
+Users can adjust their workspace signal alert threshold (e.g., only notify on >75% confidence).
 
 ## Reliability Contract
 
