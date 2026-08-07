@@ -39,7 +39,7 @@
 
 ## Top Vulnerability
 <!-- One line: what's the single biggest strategic risk? -->
-Platform exposure
+Commoditization of Data Extraction & Indexing
 
 ## Confidence Level
 <!-- H / M / L — how confident are you in this bet after the diagnostic? -->
