@@ -12,25 +12,25 @@
 | **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
 | **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
 
-### Correction Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Correction Loop - 3/5
+**What you capture today:** Explicit user feedback on flagged signals (e.g., sales reps marking an extracted transcript excerpt as "Not Relevant", correcting a mismatched municipal contact, or flagging a false positive intent score).
+**How it compounds:** Direct user corrections continuously re-tune the underlying classification LLMs and named-entity recognition (NER) models. Over time, false positive intent flags drop, dramatically improving signal precision across specific municipal sectors (e.g., water infrastructure vs. IT procurement).
 
-### Preference Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Preference Loop - 4/5
+**What you capture today:** User account configurations, accepted opportunity recommendations, targeted municipal agency choices, ideal deal thresholds, and specific solution keywords saved by sales teams.
+**How it compounds:** As users accept or dismiss daily opportunity alerts, the recommendation engine maps subtle supplier preferences to early municipal discussion topics. The platform progressively serves higher-qualified, tailored lead signals that match each supplier's ideal customer profile (ICP) without requiring manual search tweaks.
 
-### Domain Context Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Domain Context Loop - 2/5
+**What you capture today:** Cross-references between unstructured municipal council jargon (e.g., local agenda codes, line-item budget revisions, strategic plan phrases) and commercial product/service taxonomies.
+**How it compounds:** As the model processes hundreds of thousands of municipal meeting transcripts across various regions, it builds an internal dictionary of pre-RFP indicators. Knowing that a specific council discussion topic in one municipality reliably leads to an RFP 6 months later allows the system to recognize that same pattern faster in other jurisdictions.
 
-### Network Loop - __/5
-**What you capture today:**
-**How it compounds:**
+### Network Loop - 2/5
+**What you capture today:** Anonymized, platform-wide interaction aggregate data showing which types of municipal signals lead to active buyer outreach and high proposal success rates.
+**How it compounds:** As more suppliers interact with early signals across North America, the platform establishes fleet-level predictive indicators regarding municipal buying cycles. This collective intelligence powers platform-wide benchmark metrics—such as predicting municipal tender timelines—benefiting all users without exposing competitive vendor bidding strategies.
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+**Total Flywheel Score: 11/20**
+**Weakest Loop:** Network Loop
+**Fix for weakest loop:** Build an anonymized "Municipal Intent Index" that tracks early spending indicators by region and industry category. Using aggregate activity from across the platform, this index will automatically elevate high-confidence early signals to all users in that vertical.
 
 ---
 
