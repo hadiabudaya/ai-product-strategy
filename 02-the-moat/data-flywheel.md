@@ -37,22 +37,22 @@
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** OpenAI (SearchGPT / Operator) / Perplexity Enterprise
+**Vector:** Native integration of deep web scraping, document parsing (council agendas/transcripts), and automated summarization into general workspace search tools at near-zero incremental cost.
+**Time-to-threat:** 3–6 Months
+**% of value at risk:** 60% (Raw data extraction and intent detection become baseline commodities).
 
 ### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** StarBridge
+**Vector:** Embedding native LLM scrapers across their massive, existing databases of government contracts, leveraging established enterprise sales relationships and CRM integrations.
+**Time-to-threat:** 6–12 Months
+**% of value at risk:** 80% (Risk of losing enterprise B2B sales teams who prefer an all-in-one incumbent platform).
 
 ### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** Salesforce / HubSpot (CRM Platforms)
+**Vector:** Launching native "Public Sector Lead Discovery" AI agents inside the CRM that automatically flag municipal opportunities and auto-populate deal pipelines.
+**Time-to-threat:** 12+ Months
+**% of value at risk:** 40% (Loss of the workflow layer where reps draft outreach and track leads).
 
 ---
 
@@ -60,9 +60,9 @@
 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
-**Attacker:**
-**Attack vector (target the weakest loop):**
-**Weeks 1-4 - what they ship:**
-**Weeks 5-8 - how they poach users:**
-**Weeks 9-12 - why users don't come back:**
-**Your defense:**
+**Attacker:** Big Tech AI Platform (e.g., OpenAI / Perplexity)
+**Attack vector (target the weakest loop):** Exploiting weak **Network Loop (2/5)** and **Data Advantage (2/5)** by offering free, multi-modal web scraping across municipal video transcripts and PDF council minutes directly inside general chat search interface.
+**Weeks 1-4 - what they ship:** A free "Government & Municipal Intelligence" plugin/agent that allows users to prompt, "Alert me whenever [City] council discusses [Cloud Security / Road Construction] in their meetings."
+**Weeks 5-8 - how they poach users:** Bundling this capability into existing enterprise seat licenses (e.g., ChatGPT Enterprise / Perplexity Pro for Teams) at $0 extra cost, undercutting your standalone subscription fees.
+**Weeks 9-12 - why users don't come back:** Users build custom custom GPTs / AI Agents directly inside their primary AI productivity workspace, centralizing their entire research workflow in one spot and making a single-point discovery tool redundant.
+**Your defense:** Shift immediately from **discovery** to **workflow depth and execution**. Integrate directly with B2B CRMs (Salesforce/HubSpot) to automatically draft hyper-personalized outreach emails based on historical municipal buyer preferences, and build a proprietary **Correction Loop** that scores lead likelihood based on past closed-won bids.
